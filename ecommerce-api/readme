@@ -4,3 +4,5 @@ npm i @types/node @types/express
 npx tsc --init
 npm i --save-dev @tsconfig/recommended
 npx tsc
+npm install tsc-watch --save-dev
+npx tsc-watch --onSuccess "node ./lib/index.js"
