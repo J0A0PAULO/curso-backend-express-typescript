@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc-watch --onSuccess \"node ./lib/index.js\""
+    "start": "npx tsc-watch --onSuccess \"node --env-file=.env ./lib/index.js\""
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "express": "^5.2.1",
+    "firebase-admin": "^13.8.0",
     "i": "^0.3.7"
   },
   "devDependencies": {

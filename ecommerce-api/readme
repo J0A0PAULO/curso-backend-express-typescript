@@ -1,6 +1,7 @@
 npm i typescript --save-dev
 npm i express
 npm i @types/node @types/express
+npm install --save-dev @tsconfig/recommended
 npx tsc --init
 npm i --save-dev @tsconfig/recommended
 npx tsc
